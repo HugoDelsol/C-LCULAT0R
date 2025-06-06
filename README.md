@@ -1,5 +1,3 @@
-hugodelsol.github.io/C-LCULAT0R/
-
 # 🧮 Calculatrice JavaScript
 
 Une simple calculatrice réalisée en HTML, CSS et JavaScript.
