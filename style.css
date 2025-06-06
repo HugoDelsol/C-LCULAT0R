@@ -1,0 +1,66 @@
+body {    
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 10em;
+    height: 1.5em;
+    
+}
+
+.affichage {    
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+      
+}
+
+#resultat {
+    padding: 0.25em 1em;
+    font-size: 2em; 
+    text-align: right;      
+    border-radius: 1em;
+    pointer-events: none;
+}
+
+
+input[type="button"] {
+    height: 5em;
+    width: 5em;
+    margin: 0.5em;
+    border-radius: 1em;
+    font-size: 1em; 
+}
+
+button {
+    height: 5em;
+    width: 5em;
+    margin: 0.5em;
+    border-radius: 1em;
+    font-size: 1em;
+}
+
+input[type="button"][value="C"],
+
+input[type="button"][value="÷"],
+input[type="button"][value="x"],
+input[type="button"][value="+"],
+input[type="button"][value="-"],
+button {
+    background-color: rgba(0, 0, 0, 0.253);    
+}
+
+input[type="button"],
+button {
+    transition: transform 0.2s ease;
+}
+
+input[type="button"]:hover,
+button:hover {
+    transform: scale(1.2);
+}
