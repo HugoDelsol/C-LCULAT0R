@@ -64,3 +64,32 @@ input[type="button"]:hover,
 button:hover {
     transform: scale(1.2);
 }
+
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        gap: 0em;
+    }
+
+    input[type="text"] {
+        width: 6em;
+        height: 1em;        
+    }
+
+    input[type="button"] {
+        height: 3em;
+        width: 3em;
+        margin: 0.25em;
+        border-radius: 1em;
+        font-size: 1em; 
+    }
+
+    button {
+        height: 3em;
+        width: 3em;
+        margin: 0.25em;
+        border-radius: 1em;
+        font-size: 1em;
+    }
+    
+}
